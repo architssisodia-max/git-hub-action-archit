@@ -5,21 +5,21 @@ jobs:
   code:
     runs-on: ubuntu-latest
     steps:
-      -name: code checkout from github
+      - name: code checkout from github
        run: echo "code cloning"
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: Build the container
+      - name: Build the container
        run: echo "code cloning"
   test:
     runs-on: ubuntu-latest
     steps:
-      -name: Test the Container
+      - name: Test the Container
        run: echo "test container"
   deploy:
     runs-on: ubuntu-latest
     steps:
-      -name: Deploy the app
+      - name: Deploy the app
        run: echo "code deploy"
       
