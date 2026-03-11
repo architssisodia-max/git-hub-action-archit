@@ -25,7 +25,7 @@ jobs:
           path: portfolio
 
   deploy:
-
+    #build the portfolio website
     needs: build
     runs-on: ubuntu-latest
 
